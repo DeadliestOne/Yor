@@ -33,25 +33,25 @@ def stream_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "𝙳𝛜𝛜ᴘ—————————"
+        bar = "◉—————————"
     elif 10 < umm < 20:
-        bar = "—𝙳𝛜𝛜ᴘ————————"
+        bar = "—◉————————"
     elif 20 <= umm < 30:
-        bar = "——𝙳𝛜𝛜ᴘ———————"
+        bar = "——◉———————"
     elif 30 <= umm < 40:
-        bar = "———𝙳𝛜𝛜ᴘ——————"
+        bar = "———◉——————"
     elif 40 <= umm < 50:
-        bar = "————𝙳𝛜𝛜ᴘ—————"
+        bar = "————◉—————"
     elif 50 <= umm < 60:
-        bar = "—————𝙳𝛜𝛜ᴘ————"
+        bar = "—————◉————"
     elif 60 <= umm < 70:
-        bar = "——————𝙳𝛜𝛜ᴘ———"
+        bar = "——————◉———"
     elif 70 <= umm < 80:
-        bar = "———————𝙳𝛜𝛜ᴘ——"
+        bar = "———————◉——"
     elif 80 <= umm < 95:
-        bar = "————————𝙳𝛜𝛜ᴘ—"
+        bar = "————————◉—"
     else:
-        bar = "—————————𝙳𝛜𝛜ᴘ"
+        bar = "—————————◉"
     buttons = [
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -66,15 +66,8 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-      [
-            InlineKeyboardButton(
-                text="𝖮ᴡɴᴇʀ 🥀", url="https://t.me/ll_ALPHA_BABY_lll",
-            ),
-            InlineKeyboardButton(
-                text="𝖲ᴜᴘᴘᴏʀᴛ 🥀", url="https://t.me/+Q25anL0Ckuk5NzM1",
-            )
-        ],
-         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+      
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
 
@@ -88,14 +81,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
-        [
-            InlineKeyboardButton(
-                text="𝖮𝗐𝗇𝖾𝗋🥀", url="https://t.me/@ll_ALPHA_BABY_lll",
-            ),
-            InlineKeyboardButton(
-                text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍🥀", url="https://t.me/+Q25anL0Ckuk5NzM1",
-            )
-        ],
+        
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
