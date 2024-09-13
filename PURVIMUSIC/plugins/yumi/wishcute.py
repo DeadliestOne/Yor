@@ -4,7 +4,7 @@ import random
 import requests
 from PURVIMUSIC import app 
 
-SUPPORT_CHAT = "PURVI_UPDATES"
+SUPPORT_CHAT = "BeAkatsuki"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
