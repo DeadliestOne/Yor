@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_ALPHA_BABY_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Ind_Administrator")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","PURVI_MUSIC_BOT")
 # --------------------------------------------------------
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThunderboltFantasy")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Beakatsuki")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
