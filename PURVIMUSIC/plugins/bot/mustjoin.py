@@ -4,7 +4,7 @@ from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForb
 from PURVIMUSIC import app
 
 #--------------------------
-MUST_JOIN = "BeAkatsuki"
+MUST_JOIN = "ThunderboltFantasy"
 #--------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
