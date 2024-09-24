@@ -13,7 +13,7 @@ from PURVUMUSIC.utils.channelplay import get_channeplayCB
 from PURVUMUSIC.utils.decorators.language import languageCB
 from PURVUMUSIC.utils.decorators.play import PlayWrapper
 from PURVUMUSIC.utils.formatters import formats
-from PURVUMUSICutils.inline import (
+from PURVUMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
