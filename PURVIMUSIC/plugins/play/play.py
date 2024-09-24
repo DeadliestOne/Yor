@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from PURVUMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from PURVUMUSIC.core.call import Anony
+from PURVUMUSIC.core.call import PURVI
 from PURVUMUSIC.utils import seconds_to_min, time_to_seconds
 from PURVUMUSIC.utils.channelplay import get_channeplayCB
 from PURVUMUSIC.utils.decorators.language import languageCB
