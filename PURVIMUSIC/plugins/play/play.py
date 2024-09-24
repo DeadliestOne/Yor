@@ -6,14 +6,14 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from PURVUMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from PURVUMUSIC.core.call import PURVI
-from PURVUMUSIC.utils import seconds_to_min, time_to_seconds
-from PURVUMUSIC.utils.channelplay import get_channeplayCB
-from PURVUMUSIC.utils.decorators.language import languageCB
-from PURVUMUSIC.utils.decorators.play import PlayWrapper
-from PURVUMUSIC.utils.formatters import formats
-from PURVUMUSIC.utils.inline import (
+from PURVIMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from PURVIMUSIC.core.call import PURVI
+from PURVIMUSIC.utils import seconds_to_min, time_to_seconds
+from PURVIMUSIC.utils.channelplay import get_channeplayCB
+from PURVIMUSIC.utils.decorators.language import languageCB
+from PURVIMUSIC.utils.decorators.play import PlayWrapper
+from PURVIMUSIC.utils.formatters import formats
+from PURVIMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
